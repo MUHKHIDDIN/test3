@@ -1,0 +1,73 @@
+.canada{
+  padding-bottom: 168px;
+}
+.canada__title {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 133%;
+  text-align: center;
+  color: #83888f;
+  margin-bottom: 72px;
+}
+.canada__list {
+  text-align: center;
+}
+.canada__item {
+  margin-bottom: 80px;
+}
+.canada__img {
+  margin-bottom: 47px;
+}
+.canada_sub_title {
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 129%;
+  color: #333d4b;
+  margin-bottom: 22px;
+}
+.canada__text {
+  max-width: 95px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  color: #333d4b;
+  color: #333d4b;
+}
+@media (min-width: 768px) {
+  .canada__title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 133%;
+  }
+  .canada__list {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+  }
+  .canada__title {
+    text-align: start;
+  }
+  .canada_sub_title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 150%;
+  }
+  .canada__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+  }
+}
+
+@media (min-width:992px){
+
+  .canada__title{
+    margin-left: 165px;
+  }
+  .canada__list{
+    gap: 200px;
+    margin-left: 165px;
+  }
+}

@@ -1,0 +1,111 @@
+.quality {
+  padding-bottom: 120px;
+}
+.quality__block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2c343e;
+  padding: 20px;
+  border-radius: 10px;
+  &:hover{
+    background-repeat: no-repeat;
+    background-image: url(./../img/hover-coffe.jpg);
+    background-size: cover;
+  }
+  .quality__img {
+    transform: translateY(-108px);
+  }
+
+  .quality__info {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+  }
+
+  .quality__title {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 100%;
+    text-align: center;
+    color: #fefcf7;
+    &:hover{
+      color: blue;
+      transition: all 1s ease-out;
+    }
+  }
+  .quality__text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    text-align: center;
+    margin-bottom: 30px;
+   color: #fefcf7;
+ 
+  }
+}
+.quality__img2 {
+display: none;
+  }
+@media (min-width: 768px) {
+  .quality {
+    padding-bottom: 144px;
+  }
+  .quality__img {
+    transform: translateY(-100px);
+    width: 573px;
+  }
+  .quality__title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 150%;
+    gap: 35px;
+  }
+  .quality__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+  }
+}
+
+@media (min-width: 992px) {
+  .quality {
+    padding-bottom: 168px;
+  }
+  .quality__block {
+    flex-direction: row;
+    // gap: 125px;
+  }
+  .quality__img {
+    display: none;
+  }
+   .quality__img2{
+    transform: translateY(-90px);
+    width: 445px;
+    align-items: center;
+    margin-bottom: 50px;
+  display: block;
+  }
+  .quality__info {
+    width: 700px;
+    padding-left: 85px;
+    padding-right: 125px;
+    padding-top: 85px;
+    padding-bottom: 176px;
+  }
+  .quality__title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 120%;
+  }
+  .quality__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+  }
+}

@@ -7,12 +7,6 @@
 
 .our__content {
   text-align: center;
-  &:hover {
-    padding: 20px;
-    background-color: rgb(20, 57, 220);
-    border-radius: 10px;
-    transition: all 1s ease-out;
-  }
 }
 .our__title {
   font-weight: 900;
@@ -20,9 +14,7 @@
   line-height: 150%;
   color: #333d4b;
   margin-bottom: 30px;
-  &:hover {
-    color: #fff;
-  }
+
 }
 .our__text {
   font-family: var(--second-family);
@@ -30,9 +22,7 @@
   font-size: 15px;
   line-height: 167%;
   color: #333d4b;
-  &:hover {
-    color: #fff;
-  }
+
 }
 @media (min-width: 768px) {
   .our {
