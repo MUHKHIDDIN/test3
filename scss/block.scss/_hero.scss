@@ -1,0 +1,91 @@
+.hero {
+  padding-bottom: 120px;
+}
+.hero__block {
+  background-repeat: no-repeat;
+  background-image: url(../img/Mobile-bg1.jpg);
+  background-size: cover;
+  padding: 100px 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+.hero__title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 100%;
+  color: #fefcf7;
+  margin-bottom: 24px;
+  &:hover {
+    color: blue;
+    transition: all 1s ease-out;
+  }
+}
+.hero__text {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 167%;
+  color: #fefcf7;
+  margin-bottom: 39px;
+  opacity: 0.8;
+  &:hover {
+    color: rgb(20, 220, 27);
+  }
+}
+.hero__link {
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 139%;
+  color: #fefcf7;
+  padding: 16px 31px;
+  background-color: #0e8784;
+  border-radius: 6px;
+  &:hover {
+    background-color: crimson;
+    border-radius: 50%;
+    color: chartreuse;
+    transition: all 1s ease-out;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding-bottom: 144px;
+  }
+  .hero__block {
+    background-repeat: no-repeat;
+    background-image: url(../img/tab-bg2.jpg);
+    padding: 104px 0px;
+  }
+  .hero__content {
+    max-width: 398px;
+    margin-left: 58px;
+    text-align: start;
+  }
+  .hero__title {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 100%;
+    margin-bottom: 24px;
+  }
+  .hero__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .hero {
+    padding-bottom: 136px;
+  }
+  .hero__block {
+    background-repeat: no-repeat;
+    background-image: url(../img/desktop-bg3.png);
+    padding: 117px 0px;
+  }
+  .hero__content {
+    margin-left: 85px;
+  }
+}
